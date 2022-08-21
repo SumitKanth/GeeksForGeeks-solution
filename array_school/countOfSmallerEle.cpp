@@ -1,4 +1,4 @@
-// Q. Count of smaller element.
+// Q. Count of smaller elements.
 #include<iostream>
 using namespace std;
 

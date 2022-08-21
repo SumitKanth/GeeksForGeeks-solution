@@ -1,4 +1,4 @@
-// Code Sahi h bs idr nii chlega kioki yaha reverse nii kr pata ye number ko.
+// Code Sahi h bs idr nii chlega kioki yaha reverse nii kr pata ye number ko. ( In My IDE)
 #include<bits/stdc++.h>
 using namespace std;
 

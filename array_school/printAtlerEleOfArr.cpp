@@ -1,3 +1,4 @@
+// Q. Print alternate elements of an array
 #include<iostream>
 using namespace std;
 
