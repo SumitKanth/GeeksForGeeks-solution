@@ -2,9 +2,15 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Time Complexity O(n) bcoz of loop
 int largest(vector<int> &arr, int n){
-    sort(arr.begin(), arr.end());
-    return arr[n-1];
+    int max = arr[0];
+    for(int i=0; i<n; i++){
+        if(arr[i] > max){
+            max = arr[i];
+        }
+    }
+    return max;
 }
 
 int main(){
@@ -14,3 +20,13 @@ int main(){
     cout << largest(arr, size);
     return 0;
 }
+
+/*
+// Another solution 
+// Time Complexity O(nlogn) bcoz of sorting
+int largest(vector<int> &arr, int n){
+    sort(arr.begin(), arr.end());
+    return arr[n-1];
+}
+
+*/
