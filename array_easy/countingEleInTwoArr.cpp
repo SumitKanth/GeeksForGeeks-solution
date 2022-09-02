@@ -9,7 +9,6 @@ vector<int> countEleLessThanOrEqual(int arr1[], int arr2[], int m, int n){
     int s, e, count;
     for(int i=0; i<m; i++){
         s = 0, e = n-1, count = 0;
-        cout << s << " " << e << " " << count << " " << endl;
         while(s<=e){
             int mid = (s + e) / 2;
             if(arr2[mid] > arr1[i]){
@@ -19,7 +18,6 @@ vector<int> countEleLessThanOrEqual(int arr1[], int arr2[], int m, int n){
                 s = mid + 1;
             }
         }
-        cout << "count: " << s << " " << endl;
         ans.push_back(s);
     }
 
