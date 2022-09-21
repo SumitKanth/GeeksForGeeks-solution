@@ -1,4 +1,4 @@
-// Q. Minimum product pair
+// Q. Minimum product pair 
 #include<bits/stdc++.h>
 using namespace std;
 
